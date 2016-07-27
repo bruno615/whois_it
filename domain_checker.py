@@ -8,8 +8,6 @@ import pdb
 from dateutil.relativedelta import relativedelta
 from datetime import datetime
 
-domains = ['mike.com','fsdlkajdsfa.com']
-
 # Returns an array of useful info on single domain
 def queryDomain(domain):
 	print 'Determining ownership of ' + domain
@@ -40,5 +38,4 @@ def queryDomain(domain):
 
 	return returnArray
 
-for domain in domains:
-	queryDomain(domain)
+
